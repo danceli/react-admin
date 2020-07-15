@@ -1,0 +1,33 @@
+.sider-logo-container{
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  position: relative;
+  text-align: center;
+  background-color: pink;
+  overflow: hidden;
+
+  & .sider-logo-img{
+    width: 40px;
+    animation: logo-spin infinite 10s linear
+  }
+  & .sider-logo-title{
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    padding-left: 10px;
+  }
+}
+ @keyframes logo-spin {
+   from{
+     transform: rotate(0deg);
+   }
+  to{
+    transform: rotate(360deg);
+  }
+}

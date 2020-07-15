@@ -1,0 +1,16 @@
+.avatarItem {
+  display: inline-block;
+  background: rgba(50,40,60,.1);
+  border-radius: 50%;
+  padding: 5px;
+  transform: rotate(0deg);
+  transform-origin: right;
+  .avatarImg {
+    transform-origin: right;
+  }
+  &:hover .avatarImg {
+    transform: rotate(-120deg);
+    transition: .4s all ease;
+  }
+
+}
